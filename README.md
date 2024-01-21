@@ -127,6 +127,9 @@ example
 
 ![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/52b6b8a6-d1e3-413e-89d1-153ddb23118c)
 
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/0fae89bd-2044-4efa-8aed-38c7f4e3f158)
+
+
 
 beside im facing tyhis error in my app
 ![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/1d67ed34-a1ba-486e-9760-7218ce71bce3)
