@@ -83,6 +83,8 @@ This guide walks you through the steps of setting up the development environment
     Note down the IPV4 address of your Windows host PC/machine.
 
 5. Sometimes you may get smartsockets.. error when you run adb -a -P 5037 nodaemon server command in PowerShell. In that case, you can do the following steps:
+   ![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/c22bba45-6255-4f2b-9986-98309219422f)
+
     Open task manager and kill all adb related processes.
     If Android Studio is open, close it and keep only emulator running.
     If you see a message saying emulator offline, ignore it.
@@ -95,5 +97,31 @@ This guide walks you through the steps of setting up the development environment
 Click on i button beside connected wifi-> conpy the IPV4 address )
     adb devices
     You should see your connected emulator successfully now.
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/b6579924-150c-4d38-bfa9-eb3009f044e3)
 
 ## You have now successfully insatlled the maestro, ubuntu, android SDK, java and setup the environment
+
+6. After your project is built then, you can set the project by using
+ - ```yarn ios``` or ```yarn android```
+ - once project is connected
+ - inside the ubuntu you can now write the test cases for example, if you have a folder named ```samples```
+ - and it has test cases named as ```android-flow.yaml```
+ - this yaml file is used to define the flow of the application
+ - to set up this
+ - ```maestro --host 192.168.29.17 test android-flow.yaml```
+   can be used to run the test samples
+   example, i'm using the default wikkipidea page
+   ![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/2886b078-dd3f-4937-b529-73e44452bae8)
+
+   ![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/fb6950fb-7c20-4a6f-8181-13553600d2c7)
+
+to run your own app you built you can use the ignite feature now in our app
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/8c31f3de-52e9-4564-a9f9-d191ed8c28fb)
+
+
+``` maestro --host 192.168.29.17 test Login.yaml```
+
+
+this will automate the complete application 
+
+
