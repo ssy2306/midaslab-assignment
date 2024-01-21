@@ -42,15 +42,16 @@ This guide walks you through the steps of setting up the development environment
         You have successfully installed Maestro on your Windows machine 🙌
         Check your Maestro version using the following command:
         maestro --version
-        What's Next?
-        Let's set you up to use Android in your freshly installed WSL2
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/d67effa1-886c-48d5-a48c-f49c97c8f0fe)
+        set you up to use Android in your freshly installed WSL2
         Download the Android command line tools zip file from Android official site.
         Use the following instructions to set up Android command lines correctly in your WSL2.
         Open WSL2 terminal.
         Create a new directory in your home directory.
+   
         ~ $ mkdir Android
-        ~ $ cd Android
-        Unzip the Android command line tools zip file in the android directory using this command: unzip ~<command_line_zip_filename>.zip
+        ~ $ cd Android ```
+      Unzip the Android command line tools zip file in the android directory using this command: unzip ~<command_line_zip_filename>.zip
         In the  Android directory perform following actions.
         $ mkdir latest
         $ mv cmdline-tools/* latest/
@@ -94,3 +95,5 @@ This guide walks you through the steps of setting up the development environment
 Click on i button beside connected wifi-> conpy the IPV4 address )
     adb devices
     You should see your connected emulator successfully now.
+
+## You have now successfully insatlled the maestro, ubuntu, android SDK, java and setup the environment
