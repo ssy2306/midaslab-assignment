@@ -125,3 +125,7 @@ to run your own app you built you can use the ignite feature now in our app
 this will automate the complete application 
 
 
+beside im facing tyhis error in my app
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/1d67ed34-a1ba-486e-9760-7218ce71bce3)
+
+
