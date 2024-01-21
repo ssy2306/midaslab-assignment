@@ -25,6 +25,7 @@ This guide walks you through the steps of setting up the development environment
    - installig the wsl using wsl --install
    - then, wsl --install -d Ubuntu
    - now install wsl subsystem for the linux systems 
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/21746c7a-b4cb-47ee-98c3-0f9d87ab564c)
 
 2. **Update and Upgrade:**
    sudo apt update
@@ -88,6 +89,8 @@ This guide walks you through the steps of setting up the development environment
  - Now on WSL 
   - adb kill-server
     export ADB_SERVER_SOCKET=tcp:<WINDOWS_IPV4_ADDR>:5037
-    (You can find your wifi IP address in the seettin of your network by Setting->Wifi->Click on i button beside connected wifi-> conpy the IPV4 address )
+    (You can find your wifi IP address in the seettin of your network by Setting->Wifi->
+![image](https://github.com/ssy2306/midaslab-assignment/assets/77876285/989f3012-d3ae-471f-9ebc-15da7e8b64cd)
+Click on i button beside connected wifi-> conpy the IPV4 address )
     adb devices
     You should see your connected emulator successfully now.
